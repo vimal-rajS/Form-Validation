@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    
+    <section>
+        <div class="form">
+            <p>Sign up for the<br>
+                latest updates</p>
+
+            <span class="mail">EMAIL ADDRESS</span>
+
+            <div class="mail_bar">
+                <input type="email" name="mail" id="mail" class="bar"><br>
+                <button onclick="validate()" id="info"><img src="./assets/image/right_arrow.png"></button>    
+            </div>
+            <div class="data">
+                <label id=indicate></label>
+                <label id="indicate1"></label>
+            </div> 
+        </div>
+    </section>
+
+    <script src="./js/form.js"> </script>
+</body>
+
+</html>
